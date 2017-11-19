@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sujiea/NodeJsCodeTest.git"
+        "url": "git+https://github.com/sujiea/CodeTest.git"
     },
     "author": "Jane",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/sujiea/NodeJsCodeTest/issues"
+        "url": "https://github.com/sujiea/CodeTest/issues"
     },
-    "homepage": "https://github.com/sujiea/NodeJsCodeTest#readme",
+    "homepage": "https://github.com/sujiea/CodeTest#readme",
     "dependencies": {
         "express": "^4.16.2",
         "nodemon": "^1.12.1"
