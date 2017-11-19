@@ -2,6 +2,6 @@
 module.exports = function(app) {
     var codeTest = require("../controllers/codeTestController");
 
-    app.route("/filterData")
+    app.route("/")
         .post(codeTest.filterData);
 };

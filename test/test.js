@@ -12,7 +12,7 @@ describe("Code Test Json API Unit Testing" , function( ) {
         var responseData = fs.readFileSync("test/hometrack-sample-response.json", "utf8");  
         request.post({
             headers: {"content-type" : "application/json"},
-            url:     "http://localhost:3000/filterData",
+            url:     "http://localhost:3000",
             body:    requestData
         }, function(error, response, body){
             var bodyObj = JSON.parse(body);
@@ -27,7 +27,7 @@ describe("Code Test Json API Unit Testing" , function( ) {
         var responseData2 = "{\"error\":\"Could not decode request: JSON parsing failed\"}";
         request.post({
             headers: {"content-type" : "application/json"},
-            url:     "http://localhost:3000/filterData",
+            url:     "http://localhost:3000",
             body:    requestData2
         }, function(error, response, body){
             expect(body).to.equal(responseData2);
