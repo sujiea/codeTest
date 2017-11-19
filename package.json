@@ -1,0 +1,30 @@
+{
+    "name": "codetest",
+    "version": "1.0.0",
+    "description": "code test",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sujiea/NodeJsCodeTest.git"
+    },
+    "author": "Jane",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sujiea/NodeJsCodeTest/issues"
+    },
+    "homepage": "https://github.com/sujiea/NodeJsCodeTest#readme",
+    "dependencies": {
+        "express": "^4.16.2",
+        "nodemon": "^1.12.1"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "eslint": "^4.11.0",
+        "eslint-plugin-react": "^7.5.0",
+        "mocha": "^4.0.1",
+        "request": "^2.83.0"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "response": [
+        {
+            "contactAddress": "Level 6 146 Arthur Street North Sydney 2060",
+            "type": "htv",
+            "workflow": "completed"
+        },
+        {
+            "contactAddress": "360 Elizabeth St Melbourne 3000",
+            "type": "htv",
+            "workflow": "completed"
+        }
+    ]
+}
